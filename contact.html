@@ -13,7 +13,7 @@
 <body>
 
   <a href="index.html" class="home-button">
-    <img src="images/home-button.svg" alt="Home">
+    <img src="images/home-button.svg" alt="Home" />
   </a>
 
   <header>
@@ -25,29 +25,43 @@
       <a href="socials.html">Socials</a>
       <a href="contact.html" class="active">Contact</a>
     </nav>
-
   </header>
 
   <main class="container">
     <section class="contact-section">
       <h2>Contact Me</h2>
+      <p>If you want to get in touch, feel free to reach out via one of these platforms:</p>
       <div class="contact-items">
-        <a href="https://discord.com/users/deinDiscordID" target="_blank" rel="noopener noreferrer"
-          class="contact-item">
-          <img src="images/discord-icon.png" alt="Discord" />
+
+        <a href="https://discord.com/users/raelmc" target="_blank" rel="noopener noreferrer" class="contact-item">
+          <img src="images/discord.svg" alt="Discord" />
           <span>Discord</span>
         </a>
 
-        <a href="https://github.com/deinGitHub" target="_blank" rel="noopener noreferrer" class="contact-item">
+        <a href="https://github.com/raelmcdev" target="_blank" rel="noopener noreferrer" class="contact-item">
           <img src="images/github.PNG" alt="GitHub" />
           <span>GitHub</span>
         </a>
 
-        <a href="mailto:deineemail@example.com" class="contact-item">
-          <img src="images/mail-icon.png" alt="E-Mail" />
+        <a href="mailto:raeldevpublic@gmail.com" class="contact-item">
+          <img src="images/mail-icon.svg" alt="E-Mail" />
           <span>E-Mail</span>
         </a>
+
       </div>
+
+      <form action="https://formspree.io/f/yourformid" method="POST" class="contact-form">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your name" required />
+
+        <label for="email">E-Mail</label>
+        <input type="email" id="email" name="_replyto" placeholder="your.email@example.com" required />
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Your message..." required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
     </section>
   </main>
 

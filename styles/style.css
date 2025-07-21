@@ -200,6 +200,14 @@ section {
   background-image: url('../images/Vercel.png');
 }
 
+.about-image-24 {
+  background-image: url('../images/figma.png');
+}
+
+.about-image-25 {
+  background-image: url('../images/mongodb.svg');
+}
+
 .about-image-website {
   background-image: url('../images/planet.svg');
 }
@@ -286,42 +294,80 @@ footer {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
-.contact-section h2 {
-  font-size: 2em;
-  margin-bottom: 30px;
-  color: #007acc;
+.contact-section {
+  text-align: center;
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 .contact-items {
   display: flex;
   flex-direction: column;
-  /* Untereinander */
+  align-items: center;  
   gap: 30px;
-  align-items: center;
+  margin-bottom: 30px;
 }
 
 .contact-item {
-  display: flex;
-  flex-direction: column;
-  /* Bild über Text */
+  flex-direction: column; 
   align-items: center;
-  text-decoration: none;
-  color: #333;
+  gap: 12px;
+  font-size: 1.3rem;  
+  color: #09f;
   font-weight: 600;
-  font-size: 1.2em;
-  transition: color 0.3s ease;
+  text-decoration: none;
+  transition: color 0.3s;
+  display: flex;
 }
 
 .contact-item:hover {
-  color: #007acc;
+  color: #06c;
 }
 
 .contact-item img {
-  width: 70px;
-  height: 70px;
-  object-fit: contain;
-  margin-bottom: 10px;
-  filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.1));
+  height: 48px; 
+  width: 48px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  background: #222;
+  border: 1px solid #444;
+  color: #eee;
+  padding: 8px 12px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 1rem;
+}
+
+.contact-form button {
+  background-color: #2563eb;   /* kräftiges Blau */
+  color: white;
+  border: none;
+  padding: 14px 30px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 5px 15px rgba(37, 99, 235, 0.4);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  width: 100%;  /* Button nimmt ganze Breite ein */
+  max-width: 300px; /* max Breite */
+  margin: 0 auto;   /* zentrieren */
+  display: block;
+}
+
+.contact-form button:hover {
+  background-color: #1e40af;  /* dunkleres Blau beim Hover */
+  box-shadow: 0 7px 20px rgba(30, 64, 175, 0.6);
 }
 
 .home-button:hover {
@@ -342,3 +388,5 @@ footer {
   object-fit: contain;
   filter: brightness(0.6);
 }
+
+
