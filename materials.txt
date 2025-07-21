@@ -1,0 +1,65 @@
+https://fonts.google.com/icons?selected=Material+Symbols+Outlined:home:FILL@0;wght@400;GRAD@0;opsz@24&icon.size=24&icon.color=%231f1f1f
+
+
+Lernliste für Rael – Fullstack & Programmieren
+1. Datenbanken
+
+MySQL / PostgreSQL (SQL-Datenbanken)
+
+MongoDB (NoSQL-Datenbank)
+
+2. Backend-Frameworks & APIs
+
+Node.js + Express.js (JavaScript)
+
+Spring Boot (Java)
+
+Axum / Actix (Rust)
+
+3. Sicherheit & Authentifizierung
+
+OAuth & JWT (Tokens)
+
+Sessions & Cookies
+
+Passwort-Hashing (bcrypt)
+
+4. Testing & Codequalität
+
+Unit Tests (Jest für JS, JUnit für Java, Rust Test)
+
+Clean Code Prinzipien
+
+5. DevOps & Deployment
+
+GitHub Actions (Automatisierung)
+
+Docker-Grundlagen (Container)
+
+Deployment auf Server (z. B. Vercel, Heroku)
+
+6. UI/UX & Design Grundlagen
+
+Farben, Layout & Typografie
+
+Tools wie Figma
+
+7. Mobile Development (optional)
+
+React Native
+
+Flutter
+
+8. Weitere Programmiersprachen & Tools
+
+TypeScript (statt nur JS)
+
+GraphQL (API-Alternative)
+
+WebAssembly (Rust im Browser)
+
+KubeJS Vertiefung (Minecraft + JS)
+
+Git Fortgeschrittene (Branches, Rebase, Merge)
+
+class="active">Projects</a>
