@@ -63,3 +63,67 @@ KubeJS Vertiefung (Minecraft + JS)
 Git Fortgeschrittene (Branches, Rebase, Merge)
 
 class="active">Projects</a>
+
+
+So bekommst du deine Formspree-ID (für das `form`-Element in deiner HTML-Datei) – Schritt für Schritt 🔧📬:
+
+---
+
+### 🟢 1. Gehe auf [https://formspree.io](https://formspree.io)
+
+---
+
+### 🟢 2. **Kostenlos registrieren / einloggen**
+
+* Melde dich mit deiner E-Mail an (z. B. `raeldevpublic@gmail.com`)
+* Bestätige die Mail-Adresse (du bekommst eine Mail)
+
+---
+
+### 🟢 3. **Neues Projekt anlegen**
+
+* Klicke auf **"New Form"** oder **"Start a New Project"**
+* Gib einen Namen ein (z. B. `portfolio-contact`)
+
+---
+
+### 🟢 4. **Formular-HTML kopieren**
+
+* Du bekommst dann einen HTML-Code von Formspree, z. B.:
+
+```html
+<form action="https://formspree.io/f/mwkajzlk" method="POST">
+```
+
+→ Der Teil `f/mwkajzlk` ist deine **Form-ID**!
+
+---
+
+### 🟢 5. **In dein HTML einfügen**
+
+Ersetze in deinem Code:
+
+```html
+<form action="https://formspree.io/f/yourformid" method="POST">
+```
+
+durch:
+
+```html
+<form action="https://formspree.io/f/mwkajzlk" method="POST">
+```
+
+(→ Mit deiner eigenen ID)
+
+---
+
+### 🟢 6. Testen ✔️
+
+* Rufe deine Portfolio-Seite auf
+* Fülle das Formular aus
+* Klicke auf „Send Message“
+* Du bekommst eine E-Mail mit der Nachricht ✉️
+
+---
+
+Wenn du willst, kann ich dir den HTML-Code direkt mit der echten ID machen – du müsstest sie mir nur geben 😊

@@ -1,5 +1,5 @@
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background-color: #fdfdfd;
   color: #333;
   line-height: 1.6;
@@ -11,7 +11,7 @@ body {
 }
 
 h1 {
-  font-family: 'Source Code Pro', monospace;
+  font-family: "Source Code Pro", monospace;
   font-size: 3rem;
   color: #374151;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.35);
@@ -64,8 +64,6 @@ nav a.active {
   font-weight: 800;
 }
 
-
-
 section {
   background: white;
   padding: 20px;
@@ -108,108 +106,144 @@ section {
 }
 
 .about-image-1 {
-  background-image: url('../images/rael-profile-picture.jpeg');
+  background-image: url("../images/rael-profile-picture.jpeg");
 }
 
 .about-image-2 {
-  background-image: url('../images/html.PNG');
+  background-image: url("../images/html.PNG");
 }
 
 .about-image-3 {
-  background-image: url('../images/css.PNG');
+  background-image: url("../images/css.PNG");
 }
 
 .about-image-4 {
-  background-image: url('../images/java.PNG');
+  background-image: url("../images/java.PNG");
 }
 
 .about-image-5 {
-  background-image: url('../images/rust.PNG');
+  background-image: url("../images/rust.PNG");
 }
 
 .about-image-6 {
-  background-image: url('../images/tauri.JPG');
+  background-image: url("../images/tauri.JPG");
 }
 
 .about-image-7 {
-  background-image: url('../images/vscode.PNG');
+  background-image: url("../images/vscode.PNG");
 }
 
 .about-image-8 {
-  background-image: url('../images/IntelliJ.PNG');
+  background-image: url("../images/IntelliJ.PNG");
 }
 
 .about-image-9 {
-  background-image: url('../images/js.PNG');
+  background-image: url("../images/js.PNG");
 }
 
 .about-image-10 {
-  background-image: url('../images/ts.PNG');
+  background-image: url("../images/ts.PNG");
 }
 
 .about-image-11 {
-  background-image: url('../images/git.PNG');
+  background-image: url("../images/git.PNG");
 }
 
 .about-image-12 {
-  background-image: url('../images/github.PNG');
+  background-image: url("../images/github.PNG");
 }
 
 .about-image-13 {
-  background-image: url('../images/goal.svg');
-    filter: brightness(0.7) contrast(1.4) sepia(1) saturate(3);
+  background-image: url("../images/goal.svg");
+  filter: brightness(0.7) contrast(1.4) sepia(1) saturate(3);
 }
 
 .about-image-14 {
-  background-image: url('../images/modrinth.png');
+  background-image: url("../images/modrinth.png");
 }
 
 .about-image-15 {
-  background-image: url('../images/actix.png');
+  background-image: url("../images/actix.png");
 }
 
 .about-image-16 {
-  background-image: url('../images/junit.png');
+  background-image: url("../images/junit.png");
 }
 
 .about-image-17 {
-  background-image: url('../images/docker.png');
+  background-image: url("../images/docker.png");
 }
 
 .about-image-18 {
-  background-image: url('../images/nodejs.png');
+  background-image: url("../images/nodejs.png");
 }
 
 .about-image-19 {
-  background-image: url('../images/mySQL.png');
+  background-image: url("../images/mySQL.png");
 }
 
 .about-image-20 {
-  background-image: url('../images/Oauth.png');
+  background-image: url("../images/Oauth.png");
 }
 
 .about-image-21 {
-  background-image: url('../images/Spring-boot.png');
+  background-image: url("../images/Spring-boot.png");
 }
 
 .about-image-22 {
-  background-image: url('../images/sourcetree.JPG');
+  background-image: url("../images/sourcetree.JPG");
 }
 
 .about-image-23 {
-  background-image: url('../images/Vercel.png');
+  background-image: url("../images/Vercel.png");
 }
 
 .about-image-24 {
-  background-image: url('../images/figma.png');
+  background-image: url("../images/figma.png");
 }
 
 .about-image-25 {
-  background-image: url('../images/mongodb.svg');
+  background-image: url("../images/mongodb.svg");
+}
+
+.about-image-26 {
+  background-image: url("../images/framer.png");
+}
+
+.about-image-27 {
+  background-image: url("../images/react.webp");
+}
+
+.about-image-28 {
+  background-image: url("../images/tailwind-css.png");
+}
+
+.about-image-29 {
+  background-image: url("../images/redux.png");
+}
+
+.about-image-30 {
+  background-image: url("../images/websocket.png");
+}
+
+.about-image-32 {
+  background-image: url("../images/bycript.webp");
+}
+
+.about-image-36 {
+  background-image: url("../images/sqlite.svg");
+}
+
+.about-image-37 {
+  background-image: url("../images/.png");
+}
+
+.about-image-38 {
+  background-image: url("../images/wasm.png");
 }
 
 .about-image-website {
-  background-image: url('../images/planet.svg');
+  background-image: url("../images/planet.svg");
 }
 
 .about-text {
@@ -306,17 +340,18 @@ footer {
 
 .contact-items {
   display: flex;
-  flex-direction: column;
-  align-items: center;  
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
   gap: 30px;
   margin-bottom: 30px;
 }
 
 .contact-item {
-  flex-direction: column; 
+  flex-direction: row;
   align-items: center;
   gap: 12px;
-  font-size: 1.3rem;  
+  font-size: 1.3rem;
   color: #09f;
   font-weight: 600;
   text-decoration: none;
@@ -329,7 +364,7 @@ footer {
 }
 
 .contact-item img {
-  height: 48px; 
+  height: 48px;
   width: 48px;
 }
 
@@ -344,12 +379,12 @@ footer {
   padding: 8px 12px;
   margin-bottom: 20px;
   border-radius: 4px;
-  font-family: 'Source Code Pro', monospace;
+  font-family: "Source Code Pro", monospace;
   font-size: 1rem;
 }
 
 .contact-form button {
-  background-color: #2563eb;   /* kräftiges Blau */
+  background-color: #2563eb; /* kräftiges Blau */
   color: white;
   border: none;
   padding: 14px 30px;
@@ -359,14 +394,14 @@ footer {
   cursor: pointer;
   box-shadow: 0 5px 15px rgba(37, 99, 235, 0.4);
   transition: background-color 0.3s ease, box-shadow 0.3s ease;
-  width: 100%;  /* Button nimmt ganze Breite ein */
+  width: 100%; /* Button nimmt ganze Breite ein */
   max-width: 300px; /* max Breite */
-  margin: 0 auto;   /* zentrieren */
+  margin: 0 auto; /* zentrieren */
   display: block;
 }
 
 .contact-form button:hover {
-  background-color: #1e40af;  /* dunkleres Blau beim Hover */
+  background-color: #1e40af; /* dunkleres Blau beim Hover */
   box-shadow: 0 7px 20px rgba(30, 64, 175, 0.6);
 }
 
@@ -389,4 +424,79 @@ footer {
   filter: brightness(0.6);
 }
 
+/* Container & Section */
+#resources.about-section {
+  background: #fff;
+  padding: 30px 25px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.07);
+  max-width: 850px;
+  margin: 0 auto 60px auto;
+}
 
+#resources .about-text h1 {
+  font-size: 2.6rem;
+  margin-bottom: 25px;
+  color: #007acc;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.15);
+}
+
+#resources .about-text h3 {
+  font-size: 1.6rem;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  color: #1e40af;
+  border-bottom: 2px solid #3b82f6;
+  padding-bottom: 6px;
+  letter-spacing: 0.5px;
+}
+
+/* Liste */
+.resource-list {
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.resource-list li {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  margin-bottom: 10px;
+  color: #444;
+  transition: color 0.3s ease;
+}
+
+.resource-list li a {
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 600;
+  border-bottom: 1.5px solid transparent;
+  transition: border-bottom-color 0.3s ease;
+}
+
+.resource-list li a:hover {
+  border-bottom-color: #1e40af;
+  color: #1e40af;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  #resources.about-section {
+    padding: 20px 15px;
+  }
+
+  #resources .about-text h1 {
+    font-size: 2rem;
+  }
+
+  #resources .about-text h3 {
+    font-size: 1.3rem;
+  }
+
+  .resource-list li {
+    font-size: 1rem;
+  }
+}

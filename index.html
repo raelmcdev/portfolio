@@ -1,74 +1,76 @@
 <!DOCTYPE html>
 <html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Rael's Portfolio</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Rael's Portfolio</title>
-  <link rel="stylesheet" href="styles/style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap"
-    rel="stylesheet" />
-</head>
+  <body>
+    <a href="index.html" class="home-button">
+      <img src="images/home-button.svg" alt="Home" />
+    </a>
 
-<body>
+    <header>
+      <h1>Rael's Portfolio</h1>
+      <nav class="nav-bar">
+        <a href="skills.html">My Skills </a>
+        <a href="tools.html">My Tools</a>
+        <a href="projects.html">Projects</a>
+        <a href="socials.html">Socials</a>
+        <a href="contact.html">Contact</a>
+        <a href="websites.html">Go-To Sites</a>
+      </nav>
+    </header>
 
-  <a href="index.html" class="home-button">
-    <img src="images/home-button.svg" alt="Home">
-  </a>
+    <main id="main-content" class="hidden">
+      <div class="container">
+        <section id="about" class="about-section">
+          <div class="about-image about-image-1"></div>
+          <div class="about-text">
+            <h1>About me</h1>
+            <p>
+              Hi, I’m Rael, a 14-year-old student from Germany who is passionate
+              about programming and technology.
+            </p>
+            <p>
+              I’ve been learning to code for several years now and enjoy
+              exploring different programming languages and tools.
+            </p>
+          </div>
+        </section>
 
-  <header>
-    <h1>Rael's Portfolio</h1>
-    <nav class="nav-bar">
-      <a href="skills.html">My Skills </a>
-      <a href="tools.html">My Tools</a>
-      <a href="projects.html">Projects</a>
-      <a href="socials.html">Socials</a>
-      <a href="contact.html">Contact</a>
-    </nav>
+        <section id="goal" class="about-section">
+          <div class="about-image about-image-13"></div>
+          <div class="about-text">
+            <h1>Goal</h1>
+            <p>
+              My goal is to become a skilled full stack developer with expertise
+              in web development as well as Java, JavaScript, TypeScript, and
+              Rust.
+            </p>
+            <p>
+              I’m excited to keep improving my skills and to build projects that
+              combine creativity and technical knowledge.
+            </p>
+          </div>
+        </section>
+      </div>
+    </main>
 
-  </header>
+    <footer>&copy; 2025 Rael. All rights reserved.</footer>
 
-
-  <main id="main-content" class="hidden">
-    <div class="container">
-
-      <section id="about" class="about-section">
-        <div class="about-image about-image-1"></div>
-        <div class="about-text">
-          <h1>About me</h1>
-          <p>Hi, I’m Rael, a 14-year-old student from Germany who is passionate about programming and technology.</p>
-          <p>I’ve been learning to code for several years now and enjoy exploring different programming languages and
-            tools.</p>
-        </div>
-      </section>
-
-      <section id="goal" class="about-section">
-        <div class="about-image about-image-13"></div>
-        <div class="about-text">
-          <h1>Goal</h1>
-          <p>My goal is to become a skilled full stack developer with expertise in web development as well as Java,
-            JavaScript, TypeScript, and Rust.</p>
-          <p>I’m excited to keep improving my skills and to build projects that combine creativity and technical
-            knowledge.</p>
-        </div>
-      </section>
-
-    </div>
-  </main>
-
-
-  <footer>
-    &copy; 2025 Rael. All rights reserved.
-  </footer>
-
-  <script>
-    window.addEventListener('load', () => {
-      const main = document.getElementById('main-content');
-      main.classList.remove('hidden');
-      main.classList.add('slide-in');
-    });
-  </script>
-
-</body>
-
+    <script>
+      window.addEventListener("load", () => {
+        const main = document.getElementById("main-content");
+        main.classList.remove("hidden");
+        main.classList.add("slide-in");
+      });
+    </script>
+  </body>
 </html>
